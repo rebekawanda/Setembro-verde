@@ -1,0 +1,81 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+}
+
+.div3 {
+    grid-column: span 5 / span 5;
+}
+
+.div4 {
+    grid-column: span 4 / span 4;
+    grid-row: span 4 / span 4;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    background-color: #7FD682;
+    padding: 15px 32px;
+    color: #F5FCEA;
+    text-align: center;
+}
+
+.div5 {
+    grid-row: span 4 / span 4;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    background-color: #087B1E;
+    color: #087B1E;
+    padding: 15px 32px;
+    display: inline-block;
+} 
+
+.hamburger {
+    background-color: #087B1E;
+    color: #F5FCEA;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+#navMenu {
+    display: none; /* Hide the menu by default */
+    flex-direction: column;
+    align-items: center;
+}
+
+#navMenu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.hidden {
+    display: none; /* Class to hide elements */
+}
+
+#navMenu:not(.hidden) {
+    display: flex; /* Show the menu when not hidden */
+}
+
+h1 {
+    text-align: center;
+    color: #087B1E;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} 
+
+h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #F5FCEA;
+}
+
+a {
+    text-decoration: none;
+    color: #F5FCEA;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setembro Verde</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<div class="parent">
+    <div class="div5">
+        <button class="hamburger" onclick="toggleMenu()">☰</button>
+        <nav id="navMenu" class="hidden">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <p></p>
+                <li><a href="doacao.html">Doação de Órgãos</a></li>
+                <p></p>
+                <li><a href="inclusao.html">Inclusão Social da Pessoa com Deficiência</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="div3">
+        <h1>Setembro Verde 💚</h1>
+    </div>
+    <div class="div4">
+        <h4>O Setembro Verde é o nome que se dá para duas iniciativas distintas de grande importância. Uma das campanhas procura conscientizar a população sobre medidas de inclusão de pessoas com deficiência, buscando garantir oportunidades para essas pessoas e combater os preconceitos que possa haver. A outra campanha procura incentivar as pessoas a realizar a doação de órgãos. Essa campanha busca também incentivar as famílias a falar sobre o assunto para que doações possam ajudar a diminuir a fila de indivíduos esperando doadores de órgãos.</h4>
+        <img src="setembroverde.png" height="200">
+        <h4>Medidas como o Setembro Verde são de fundamental importância porque garantem que a população seja conscientizada sobre a inclusão de pessoas com deficiência e da importância da doação de órgãos. Além disso, no caso da campanha sobre inclusão de pessoas com deficiência, o Setembro Verde garante oportunidades educacionais e profissionais, combate preconceitos e mobiliza a sociedade para que iniciativas inclusivas sejam tomadas de diferentes maneiras, seja respeitando as limitações do indivíduo, seja garantindo seu acesso a recursos.</h4>
+    </div>
+</div>
+
+<script>
+function toggleMenu() {
+    const menu = document.getElementById('navMenu');
+    menu.classList.toggle('hidden');
+}
+</script>
+</body>
+</html>
+
